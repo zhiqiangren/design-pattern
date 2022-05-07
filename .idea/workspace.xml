@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f1abef-a059-4022-8088-1f21603e2c7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/service/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/service/WaimaiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/AbstractStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/FoodStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/HotelStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/StrategyContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/exercise/pattern/strategypatern/strategy/WaimaiStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,14 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,7 +54,39 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/exercise/pattern" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.exercise.pattern.strategypatern" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/exercise/pattern" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exercise.pattern.strategypatern.Client" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.exercise.pattern.strategypatern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -46,11 +98,95 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651930043911</updated>
-      <workItem from="1651930045215" duration="711000" />
+      <workItem from="1651930045215" duration="5519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="100" width="805" height="669" key="#Project_Structure" timestamp="1651934996935">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="320" y="100" width="805" height="669" key="#Project_Structure/0.23.1440.825@0.23.1440.825" timestamp="1651934996934" />
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651931152029">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="184" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1651931152029" />
+    <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser" timestamp="1651935256500">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="533" y="151" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1651935256500" />
+    <state x="243" y="367" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1651935408993">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="243" y="367" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.825@0.23.1440.825" timestamp="1651935408993" />
+    <state x="486" y="301" width="489" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1651935429383">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="486" y="301" width="489" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.825@0.23.1440.825" timestamp="1651935429383" />
+    <state x="486" y="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1651935414549">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="486" y="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.825@0.23.1440.825" timestamp="1651935414549" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom" timestamp="1651935864506">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1651935864506" />
+    <state width="1398" height="255" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1651934439345" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center" timestamp="1651935864506">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1651935864506" />
+    <state width="1398" height="255" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1651934439344" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left" timestamp="1651935864505">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1651935864505" />
+    <state width="1398" height="255" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1651935704857" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1651934439344" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right" timestamp="1651935864506">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1651935864506" />
+    <state width="1398" height="255" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1651934439345" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1651935864419">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1651935864419" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center" timestamp="1651935864418">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1651935864418" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left" timestamp="1651935864417">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1651935864417" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right" timestamp="1651935864418">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1651935864418" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1651935704858" />
+    <state x="258" y="96" key="Maven.ArtifactSearchDialog" timestamp="1651935079626">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="258" y="96" key="Maven.ArtifactSearchDialog/0.23.1440.825@0.23.1440.825" timestamp="1651935079626" />
+    <state x="208" y="23" width="1024" height="826" key="SettingsEditor" timestamp="1651934849610">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="208" y="23" width="1024" height="823" key="SettingsEditor/0.23.1440.823@0.23.1440.823" timestamp="1651931326117" />
+    <state x="208" y="23" width="1024" height="825" key="SettingsEditor/0.23.1440.825@0.23.1440.825" timestamp="1651934849610" />
+    <state x="208" y="23" width="1024" height="826" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1651933879074" />
+    <state x="97" y="132" key="new project wizard" timestamp="1651932268568">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state x="97" y="132" key="new project wizard/0.23.1440.825@0.23.1440.825" timestamp="1651932268568" />
   </component>
 </project>
